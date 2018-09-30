@@ -3,6 +3,6 @@ def oxford_comma(array)
   array.join
 elsif array.length == 2
   array.insert(-2, "and").join(" ")
-else array.pop.insert(-2, "and dragon fruits").join(", ")
+else array.pop.insert(-1, "and dragon fruits").join(", ")
 end
 end
