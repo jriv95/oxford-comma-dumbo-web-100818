@@ -4,6 +4,6 @@ def oxford_comma(array)
 elsif array.length == 2
   array.insert(-2, "and").join(" ")
 else array.insert(-2, "and").join(", ")
-  array.to_sentence(:last_word_connector default: ", and ")
+  array.to_sentence(:last_word_connector", and ")
 end
 end
