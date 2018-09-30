@@ -6,3 +6,4 @@ elsif array.length == 2
 else array.to_sentence(:last_word_connector ", and ")
 end
 end
+end
